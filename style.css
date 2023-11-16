@@ -1,0 +1,83 @@
+/* A-A Codding World! */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+  
+  #counter {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #f5f5f5;
+    text-shadow: 2px 2px #ff0000;
+    animation: blink 1s infinite;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-delay: 0s;
+    animation-name: blink;
+    animation-duration: 1s;
+    animation-direction: alternate;
+  }
+  
+  #increment-btn {
+    background-color: #ff0000;
+    color: #f5f5f5;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    animation: pulse 1s infinite;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-delay: 0s;
+    animation-name: pulse;
+    animation-duration: 1s;
+    animation-direction: alternate;
+  }
+  
+  #save-btn {
+    background-color: #ff0000;
+    color: #f5f5f5;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  #reset-btn {
+    background-color: #ff0000;
+    color: #f5f5f5;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    animation: pulse 1s infinite;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-delay: 0s;
+    animation-name: pulse;
+    animation-duration: 1s;
+    animation-direction: alternate;
+  }
